@@ -17,9 +17,15 @@
             "homepage": "https://github.com/gregurco/GuzzleBundleCachePlugin/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:gabfr/EightPointsGuzzleBundle.git"
+        }
+    ],
 
     "require": {
-        "php":                              "^7.0",
+        "php":                              "^7.2",
         "guzzlehttp/guzzle":                "^6.0",
         "eightpoints/guzzle-bundle":        "dev-master",
         "symfony/http-kernel":              "~4.0|~5.0",
